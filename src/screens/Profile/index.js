@@ -38,7 +38,6 @@ export default function Profile({ navigation }) {
     { key: 'likeds', title: 'likeds' },
     { key: 'privates', title: 'privates' },
   ]);
-
   const renderScene = SceneMap({
     posts: Posts,
     likeds: Likeds,
